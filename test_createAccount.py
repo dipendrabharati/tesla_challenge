@@ -20,7 +20,7 @@ class Test_001_CreateAccount:  # Test_number_page
         self.driver.get(self.baseURL)  # accessing the website homepage
         home_title = self.driver.title  # Getting the title
 
-        if home_title == 'Electric Cars, Solar & Clean Energy | ':  # Verification of title
+        if home_title == 'Electric Cars, Solar & Clean Energy | Tesla':  # Verification of title
             assert True
             self.driver.close()
             self.logger.info("*****************Home page title test is passed**********************")
